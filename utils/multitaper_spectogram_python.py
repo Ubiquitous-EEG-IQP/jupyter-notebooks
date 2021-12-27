@@ -95,7 +95,7 @@ def multitaper_spectrogram(data, fs, frequency_range=None, time_bandwidth=5, num
         Last modified - 2/18/2021 Thomas Possidente
   __________________________________________________________________________________________________________________
     """
-
+    
     #  Process user input
     [data, fs, frequency_range, time_bandwidth, num_tapers,
      winsize_samples, winstep_samples, window_start,
